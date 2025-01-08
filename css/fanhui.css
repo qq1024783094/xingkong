@@ -1,0 +1,12 @@
+.back-to-top-button {
+    position: fixed; /* 让按钮固定在页面上，不随滚动而移动 */
+    bottom: 20px; /* 距离页面底部20px */
+    right: 20px; /* 距离页面右侧20px */
+    background-color: rgba(0, 0, 0, 0.1); /* 半透明黑色背景，rgba中最后一个参数0.5表示透明度，取值范围0到1 */
+    color: rgb(214, 195, 224); /* 文字颜色为白色 */
+    border: none; /* 去除边框 */
+    border-radius: 10px; /* 圆角效果 */
+    padding: 10px 15px; /* 按钮内边距 */
+    cursor: pointer; /* 鼠标悬停时显示手指指针，提示可点击 */
+    display: none; /* 初始先隐藏按钮，等页面滚动一定距离后再显示 */
+}

@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* 隐藏页面滚动条，避免影响效果 */
+}
+
+#stars {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* 让这个元素不阻挡鼠标事件 */
+}
